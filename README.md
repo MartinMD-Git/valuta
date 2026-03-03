@@ -21,10 +21,10 @@ Det anbefales altid at bruge et virtuelt miljø for at isolere projektets afhæn
 
 **I din terminal:**
 * **Windows:**
-    python -m venv venv
+    python -m venv venv  
     .\venv\Scripts\activate
 * **Mac/Linux:**
-    python3 -m venv venv
+    python3 -m venv venv  
     source venv/bin/activate
 
 ### 4. Installer nødvendige pakker
