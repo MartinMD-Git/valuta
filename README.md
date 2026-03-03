@@ -6,12 +6,17 @@ Dette er et simpelt Command Line Interface (CLI) værktøj skrevet i Python, der
 
 Følg disse trin for at få programmet til at køre lokalt på din maskine.
 
+### 1. Hent din API-Nøgle
+For at bruge programmet skal du bruge en gratis API-nøgle:
+1. Gå til (https://www.exchangerate-api.com/).
+2. Indstast din e-mail og opret en gratis konto.
+3. Kopier din API-nøgle og gem den
 
-### 1. Klon projektet og gå ind i mappen:
+### 2. Klon projektet og gå ind i mappen:
    git clone [https://github.com/MartinMD-Git/valuta.git](https://github.com/MartinMD-Git/valuta.git)  
    cd valuta
 
-### 2. Opret og aktiver Virtual Environment (Venv)
+### 3. Opret og aktiver Virtual Environment (Venv)
 Det anbefales altid at bruge et virtuelt miljø for at isolere projektets afhængigheder.
 
 **I din terminal:**
@@ -22,7 +27,7 @@ Det anbefales altid at bruge et virtuelt miljø for at isolere projektets afhæn
     python3 -m venv venv
     source venv/bin/activate
 
-### 3. Installer nødvendige pakker
+### 4. Installer nødvendige pakker
 Når dit virtuelle miljø er aktivt, skal du installere de nødvendige biblioteker:  
 pip install -r requirements.txt
 
