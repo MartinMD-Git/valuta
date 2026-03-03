@@ -2,11 +2,16 @@
 
 Dette er et simpelt Command Line Interface (CLI) værktøj skrevet i Python, der gør det muligt at omregne valutaer direkte fra terminalen. Programmet benytter [ExchangeRate-API](https://www.exchangerate-api.com/) til at hente de nyeste valutakurser.
 
-## Installation & Setup
+## Installation og Setup
 
 Følg disse trin for at få programmet til at køre lokalt på din maskine.
 
-### 1. Opret og aktiver Virtual Environment (Venv)
+
+### 1. Klon projektet:
+   git clone [https://github.com/MartinMD-Git/valuta.git](https://github.com/MartinMD-Git/valuta.git)
+   cd valuta
+
+### 2. Opret og aktiver Virtual Environment (Venv)
 Det anbefales altid at bruge et virtuelt miljø for at isolere projektets afhængigheder.
 
 **I din terminal:**
@@ -17,7 +22,7 @@ Det anbefales altid at bruge et virtuelt miljø for at isolere projektets afhæn
     python3 -m venv venv
     source venv/bin/activate
 
-### 2. Installer nødvendige pakker
+### 3. Installer nødvendige pakker
 Når dit virtuelle miljø er aktivt, skal du installere de nødvendige biblioteker:
 pip install -r requirements.txt
 
