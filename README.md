@@ -7,7 +7,7 @@ Dette er et simpelt Command Line Interface (CLI) værktøj skrevet i Python, der
 Følg disse trin for at få programmet til at køre lokalt på din maskine.
 
 
-### 1. Klon projektet:
+### 1. Klon projektet og gå ind i mappen:
    git clone [https://github.com/MartinMD-Git/valuta.git](https://github.com/MartinMD-Git/valuta.git)  
    cd valuta
 
